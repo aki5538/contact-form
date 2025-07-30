@@ -29,5 +29,5 @@
  5.マイグレーションの実行
  　    phpコンテナ内で以下のコマンドを入力して、マイグレーションを実行してください。
      $ php artisan migrate
-       ※http://localhost:8080/にアクセスすると、docker-compose.ymlで設定した、phpMyAdmin を開くことができます。
+       ※http://local:8080/にアクセスすると、docker-compose.ymlで設定した、phpMyAdmin を開くことができます。
        phpMyAdmin では、ウェブブラウザからデータベースに接続して、閲覧等することができます。
