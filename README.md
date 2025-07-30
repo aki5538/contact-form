@@ -1,5 +1,3 @@
-# laravel-docker-template
-
 環境構築手順
 　本プロジェクトの開発環境はDockerを使用して構築します。以下の手順に従ってセットアップしてください。
 
@@ -31,3 +29,5 @@
  5.マイグレーションの実行
  　    phpコンテナ内で以下のコマンドを入力して、マイグレーションを実行してください。
      $ php artisan migrate
+       ※http://localhost:8080/にアクセスすると、docker-compose.ymlで設定した、phpMyAdmin を開くことができます。
+       phpMyAdmin では、ウェブブラウザからデータベースに接続して、閲覧等することができます。
